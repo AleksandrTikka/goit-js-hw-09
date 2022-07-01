@@ -16,3 +16,46 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 12px;
+}
+
+.value {
+  font-size: 32px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form>label:not(:last-child) {
+  margin-right: 5px;
+}
+
+.form button {
+  height: 21px;
+}
+
